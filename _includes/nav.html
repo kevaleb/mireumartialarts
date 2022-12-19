@@ -1,21 +1,19 @@
 <nav>
 	<a href="#banner" class="logo"><img src="/images/logos/logo-emblem.svg" alt="" />
-	
 	<img src="/images/logos/logo.svg" alt="" /></a>
-	<!--{% for feature in page.features %}
-	<a href="#{{ feature.feature_title | slugify }}">{{ feature.feature_title }}</a>
-	{% endfor %}-->
-	
 	<a href="/" {% if page.url == '/' %}class="selected"{% endif %}>Home</a>
-	{% assign navitems = site.main-pages | sort: 'navorder'  %}
+	<a href="#contact">Contact</a>
+	
+	
+	<!--{% assign navitems = site.main-pages | sort: 'navorder'  %}
 	{% for item in navitems %}
 		<a href="{{ item.url }}" {% if page.url contains item.navclass %}class="selected"{% endif %} {% if item.hide_from_nav == true %}style="display: none;"{% endif %}>{{ item.navtitle }}</a>
-	{% endfor %}
+	{% endfor %}-->
 	
-	<a href="#contact">Contact Me</a>
 	
-	<a href="https://www.facebook.com/elissa.wall.official" class="social" target="_blank"><img src="/images/icons/fb.svg" alt="" /></a>
-	<a href="https://www.instagram.com/elissa.wall/" class="social" target="_blank"><img src="/images/icons/ig.svg" alt="" /></a>
+	<a href="#" class="social" target="_blank"><img src="/images/icons/fb.svg" alt="" /></a>
+	<a href="#" class="social" target="_blank"><img src="/images/icons/ig.svg" alt="" /></a>
 	
-	<a href="#contact" class="cta">Speaking</a>
+	
+	<a href="https://buy.stripe.com/test_7sIg1FfZn1DQ6rK288" class="cta">Sign Up</a>
 </nav>
