@@ -375,7 +375,7 @@ header > div > nav > a.cta:hover {
 
 header > div > nav > a.logo {
 	vertical-align: middle;
-	width: 20px;
+	width: 48px;
 	white-space: nowrap;
 	transition: width .6s ease-out .3s;
 	overflow: hidden;
@@ -384,7 +384,7 @@ header > div > nav > a.logo > img {
 	position: relative;
 	display: inline-block;
 	vertical-align: middle;
-	width: 20px;
+	width: 48px;
 	top: -3px;
 	
 }
@@ -398,7 +398,7 @@ header.dark {
 	background: #000; 
 }
 header.dark > div > nav > a.logo {
-	width: 120px;
+	width: 150px;
 }
 
 
@@ -707,10 +707,10 @@ header.open > .menu-button > span.three {
 	width: 100%;
 	vertical-align: middle;
 	white-space: normal;
-	text-align: left;
+	text-align: center;
 	margin: 0px 0 0 0;
 	
-	padding: 0 50% 0 0;
+	padding: 0 0% 0 0;
 }
 .banner > hgroup > img {
 	/*display: none;*/
@@ -859,7 +859,7 @@ header.open > .menu-button > span.three {
 	display: block;
 }
 .banner > hgroup {
-	padding: 0 50% 0 0;
+	padding: 0 0% 0 0;
 }
 .banner > hgroup > img {
 	display: inline-block;
@@ -1237,23 +1237,25 @@ video#bgvid {
 
 /* @group Contact Info */
 
-.content > .contact-info {
+.contact-info {
+	width: 100vw;
 	position: relative;
 	padding: 12vh 24px;
 	margin: 0 auto;
-	background: #fdedd8;
+	background: #f2f2f2;
 	text-align: center;
 }
-.content > .contact-info > h2 {
+.contact-info > h2 {
 	position: relative;
 	z-index: 100;
 	text-transform: uppercase;
 	font: 700 36px/36px "Montserrat", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-align: center;
 }
 .contact-info > p {
 	font: 200 24px/36px "Montserrat", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
-.content > .contact-info > img {
+.contact-info > img {
 	position: absolute;
 	top: 0px;
 	left: 0px;
