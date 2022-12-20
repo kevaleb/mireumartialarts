@@ -714,8 +714,8 @@ header.open > .menu-button > span.three {
 }
 .banner > hgroup > img {
 	/*display: none;*/
-	width: 100%;
 	max-width: 480px;
+	max-height: 100%;
 }
 .banner > hgroup > h1 {
 	margin: 0px 0 0 0;
@@ -860,11 +860,12 @@ header.open > .menu-button > span.three {
 }
 .banner > hgroup {
 	padding: 0 0% 0 0;
+	/*background: #f16;*/
 }
 .banner > hgroup > img {
 	display: inline-block;
-	max-width: 100%;
-	margin: 0 0 24px 0;
+	max-width: 240px;
+	max-height: 100%;
 }
 .banner > hgroup > h1 {
 	margin: 0 0 0px 0;
@@ -1231,18 +1232,22 @@ video#bgvid {
 /* @end */
 
 
-
+.pricing {
+	padding: 96px 24px;
+	background: #f2f2f2;
+}
 
 
 
 /* @group Contact Info */
 
 .contact-info {
-	width: 100vw;
+	/*display: none;*/
+	/*width: 100vw;*/
 	position: relative;
-	padding: 12vh 24px;
+	padding: 96px 24px!important;
 	margin: 0 auto;
-	background: #f2f2f2;
+	background: #fff;
 	text-align: center;
 }
 .contact-info > h2 {
