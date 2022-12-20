@@ -546,11 +546,16 @@ header > div > nav > a.selected:before {
 	margin: 0 0 -4px 0;
 }
 header > div > nav > a.cta {
+	position: fixed;
+	top: 0px;
+	right: 0px;
 	display: inline-block;
-	background: none;
-	border: none!important;
-	color: #fff;
+	background: #fff;
+	color: #000;
 	margin: 12px 0 0 24px;
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-weight: 900;
 }
 header > div > nav > a.logo {
 	width: 100%;
@@ -560,23 +565,6 @@ header > div > nav > a.logo > img {
 }
 header > div > nav > a.logo > img+img {
 	width: 156px;
-}
-
-
-
-header > div > nav > a.snipcart-checkout {
-	position: fixed;
-	top: 12px;
-	right: 12px;
-	width: auto;
-	font-size: 48px;
-	color: #fff;
-	text-shadow: 0 1px 3px rgba(0,0,0,.5), 0 1px 1px rgba(0,0,0,.5);
-}
-header > div > nav > a.snipcart-checkout .snipcart-total-items {
-	display: none;
-	font-size: 18px;
-	vertical-align: middle;
 }
 
 }
